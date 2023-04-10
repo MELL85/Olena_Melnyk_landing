@@ -15,7 +15,7 @@
     };
     let observer = new IntersectionObserver(onEntry, options);
     let elements = document.querySelectorAll('.element_animation');
-    let elements1 = document.querySelectorAll('.element_animation_black');
+    let elements1 = document.querySelectorAll('.element_animation_text');
 
     for (let elm of elements) {
         observer.observe(elm);

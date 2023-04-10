@@ -1,5 +1,5 @@
 .private_club_home {
-    background-image: linear-gradient(to top,  rgba(36, 29, 26, 0.7), rgba(36, 29, 26, .7)), url(../img/private_club_home_foto.jpeg);
+    background-image: linear-gradient(to top, rgba(36, 29, 26, 0.7), rgba(36, 29, 26, .7)), url(../img/private_club_home_foto.jpeg);
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -12,12 +12,19 @@
     padding: 20px 20px;
 }
 
-.private_club_home__head-title {
+.private_club_home__head-title,
+.private_club_home__head-title-up {
     font-family: 'Playfair Display', serif;
     color: var(--COLOR-BG-SECTION-LIGHT);
     font-size: 40px;
     letter-spacing: 8px;
-    font-weight: 100;
+    font-weight: 400;
+}
+
+.private_club_home__head-title-up {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 400;
 }
 
 .private_club_home__line-block {
@@ -27,30 +34,9 @@
     align-items: center;
 }
 
-/* .private_club_home__line-left,
-.private_club_home__line-right {
-    display: block;
-    content: " ";
+.private_club_1__line {
     width: 20%;
-    border: 1px solid;
-    color: var(--COLOR-BG-SECTION-LIGHT)
-} */
-
-
-.element_animation {
-    display: block;
-    content: " ";
-    width: 20%;
-    border: 1px solid;
-    color: var(--COLOR-BG-SECTION-LIGHT);
-    opacity: 0;
 }
-
-.element_animation.element_show {
-    opacity: 1;
-    transition: opacity 4s;
-}
-
 
 .private_club_home__line-img {
     padding: 0 20px;
@@ -84,7 +70,15 @@
 @media screen and (min-width: 767px) {
 
     .private_club_home__head-title {
-        font-size: 50px;
+        font-size: 48px;
+    }
+
+    .private_club_home__head-title-up {
+        font-size: 28px;
+    }
+
+    .private_club_1__line {
+        width: 15%;
     }
 }
 
@@ -98,9 +92,13 @@
         font-size: 56px;
     }
 
-    .private_club_home__line-left,
-    .private_club_home__line-right {
-        width: 15%;
+    .private_club_home__head-title-up {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .private_club_1__line {
+        width: 10%;
     }
 
     .private_club_home__text-block {
@@ -117,6 +115,12 @@
 
     .private_club_home__head-block {
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .private_club_1__line {
+        width: 7%;
     }
 }
 
@@ -194,35 +198,14 @@
     margin: 0 0 25px;
 }
 
-/* .private_club_topics__line-left,
-.private_club_topics__line-right {
-    display: block;
-    content: " ";
-    width: 15%;
-    border: 1px solid;
+.private_club_topics__black-line {
+    width: 10%;
     color: var(--COLOR-HEAD-TITLE);
-} */
-
-
-.element_animation_black {
-    display: block;
-    content: " ";
-    width: 15%;
-    border: 1px solid;
-    color: var(--COLOR-HEAD-TITLE);
-    opacity: 0;
 }
-
-.element_animation_black.element_show {
-    opacity: 1;
-    transition: opacity 4s;
-}
-
-
 
 .private_club_topics__line-img {
-    padding: 0 10px;
-    width: 35px;
+    padding: 0 5px;
+    width: 25px;
 }
 
 .private_club_topics__head-list-block {
@@ -243,9 +226,8 @@
 
 @media screen and (min-width: 576px) {
 
-    .private_club_topics__line-left,
-    .private_club_topics__line-right {
-        width: 10%;
+    .private_club_topics__black-line {
+        width: 7%;
     }
 }
 
@@ -261,17 +243,15 @@
 
 @media screen and (min-width: 992px) {
 
-    .private_club_topics__line-left,
-    .private_club_topics__line-right {
-        width: 7%;
+    .private_club_topics__black-line {
+        width: 5%;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
-    .private_club_topics__line-left,
-    .private_club_topics__line-right {
-        width: 5%;
+    .private_club_topics__black-line {
+        width: 3%;
     }
 
     .private_club_topics__list {
@@ -718,15 +698,27 @@
     padding: 45px 20px;
 }
 
-.pc_testimonials__img-block {
+/* .pc_testimonials__img-block {
     text-align: center;
-}
+} */
 
-.pc_testimonials__img {
+/* .pc_testimonials__img {
     margin: 20px 0 0;
     height: 320px;
     object-fit: contain;
     padding: 0 20px 20px;
+} */
+
+.pc-testimonials__carousel-img {
+    /* height: 300px; */
+    height: 500px;
+    object-fit: contain;
+}
+
+.carousel_line {
+    width: 3px !important;
+    border-radius: 50% !important;
+    /* background-color: black !important; */
 }
 
 @media screen and (min-width: 1200px) {
@@ -734,12 +726,12 @@
         display: flex;
         gap: 1rem;
     }
-    
+
     .pc_testimonials__galeri-img-block {
         flex: 1;
         transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
     }
-    
+
     .pc_testimonials__galeri-img-block:hover {
         flex: 5;
     }
