@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Олена Мельник</title>
+    <link rel="shortcut icon" href="img/png/icon_logo_new_1.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script defer src="JS/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script defer src="JS/burger-menu.js"></script>
+    <script defer src="JS/nav-menu-fixed.js"></script>
+    <script defer src="JS/spawn-animation.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-mobile__head-block" id="navbar">
+                <div class="header__head-nav-block">
+                    <div class="container">
+                        <div class="header__menu-block">
+                            <div class="header__head-nav-menu-block">
+                                <div class="header__logo-block">
+                                    <a href="index.html">
+                                        <img src="img/png/icon_logo_only_new.png" alt="logo" class="header__logo">
+                                    </a>
+                                </div>
+
+                                <div class="header__head-burger-menu-icon-block">
+                                    <div class="header__burger-menu-icon-block" id="burgermenu-btn">
+                                        <span class="header__burger-menu-line"></span>
+                                        <span class="header__burger-menu-line"></span>
+                                        <span class="header__burger-menu-line"></span>
+                                    </div>
+
+                                    <div class="header-mobile__burgermenu-icon-language-block">
+                                        <div class="header-mobile__burgermenu-icon-language-link-block">
+                                            <a href="#">UA</a>
+                                        </div>
+                                        <div class="header-mobile__burgermenu-icon-language-line-block">
+                                            <span class="header-mobile__burgermenu-icon-language-line"></span>
+                                        </div>
+                                        <div class="header-mobile__burgermenu-icon-language-link-block">
+                                            <a href="#">EN</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__head-menu-block" id="burgermenu">
+                    <div class="container">
+                        <nav class="header__burgermenu-blocks">
+                            <ul class="header__burgermenu-ul-blocks">
+                                <li class="header__burgermenu-title-block">
+                                    <a href="index.html" class="header__burgermenu-title">Головна</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="about_me.html" class="header__burgermenu-title">Про мене</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="courses.html" class="header__burgermenu-title">Курси</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="consultation.html" class="header__burgermenu-title">Консультація</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="private-club.html" class="header__burgermenu-title">Закритий клуб</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="beginners.html" class="header__burgermenu-title">Психолог мені?</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="testimonials.html" class="header__burgermenu-title">Відгуки</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="faq.html" class="header__burgermenu-title">FAQ</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="contacts.html" class="header__burgermenu-title">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-desctop__head-block" id="navbar-desctop">
+                <div class="header-desctop__head-nav-block">
+                    <div class="container">
+                        <div class="header-desctop__menu-block">
+                            <div class="header-desctop__head-nav-menu-block">
+                                <div class="header__logo-block">
+                                    <a href="index.html">
+                                        <img src="img/png/icon_logo_only_new.png" alt="logo"
+                                            class="header-desctop__logo">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <nav class="header-desctop__burgermenu-blocks">
+                                <ul class="header-desctop__burgermenu-ul-blocks">
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="index.html" class="header__burgermenu-title">Головна</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#about_me" class="header__burgermenu-title">Про мене</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#topics" class="header__burgermenu-title">Теми</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#cost" class="header__burgermenu-title">Вартість</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#about_club" class="header__burgermenu-title">Про клуб</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#testimonials" class="header__burgermenu-title">Відгуки</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="contacts.html" class="header__burgermenu-title">Контакти</a>
+                                    </li>
+                                </ul>
+
+                                <div class="header-desctop__burgermenu-icon-language-block">
+                                    <div class="header-desctop__burgermenu-icon-language-link-block">
+                                        <a href="#">UA</a>
+                                    </div>
+                                    <div class="header-desctop__burgermenu-icon-language-line-block">
+                                        <span class="header-desctop__burgermenu-icon-language-line"></span>
+                                    </div>
+                                    <div class="header-desctop__burgermenu-icon-language-link-block">
+                                        <a href="#">EN</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="private_club_home">
+                <div class="container">
+                    <div class="private_club_home__head-block">
+                        <div class="private_club_home__head-title-block">
+                            <h1 class="text-center text-uppercase private_club_home__head-title">Закритий клуб</h1>
+                        </div>
+
+                        <div class="private_club_home__line-block">
+                            <span class="private_club_home__line-left element_animation"></span>
+                            <img class="private_club_home__line-img" src="img/png/clover-light-50.png" alt="">
+                            <span class="private_club_home__line-right element_animation"></span>
+                        </div>
+
+                        <div class="private_club_home__text-block">
+                            <p class="text-center private_club_home__text">Рік психотерапії за ціною сукні.</p>
+                            <p class="text-center private_club_home__text">Тепер це можливо!</p>
+                        </div>
+
+                        <div class="private_club_home__title-block">
+                            <h6 class="text-center private_club_home__title">З чого почати? Як це опрацювати? Що
+                                робити, якщо в
+                                мене немає грошей на психолога?</h6>
+                            <h6 class="text-center private_club_home__title">Відповідь на ці запитання - Закритий клуб
+                                із Оленою
+                                Мельник</h6>
+                        </div>
+
+                        <div class="text-center private_club_home__btn-block">
+                            <a href="#">
+                                <button type="button"
+                                    class="btn btn-secondary private__btn events__btn">ПРИЄДНАТИСЯ</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="private_club_info">
+                <div class="container">
+                    <div class="private_club_info__head-block">
+                        <div class="private_club_info__title-block">
+                            <p class="private_club_info__title">"Закритий клуб" це річна програма опрацювання 12-ти
+                                основних
+                                запитів жінок, які приходять до психолога, щоб змінити своє життя.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="private_club_topics" id="topics">
+                <div class="container">
+                    <div class="private_club_topics__head-block">
+                        <div class="private_club_topics__head-title-block">
+                            <h2 class="text-center private_club_topics__head-title">Теми:</h2>
+                        </div>
+
+                        <div class="text-center private_club_topics__line-block">
+                            <span class="private_club_topics__line-left element_animation_black"></span>
+                            <img class="private_club_topics__line-img" src="img/png/clover-black-50.png" alt="">
+                            <span class="private_club_topics__line-right element_animation_black"></span>
+                        </div>
+
+                        <div class="private_club_topics__head-list-block">
+                            <ul class="private_club_topics__list-block">
+                                <li class="private_club_topics__list">Почуття провини</li>
+                                <li class="private_club_topics__list">Страхи</li>
+                                <li class="private_club_topics__list">Межі</li>
+                                <li class="private_club_topics__list">Образи</li>
+                                <li class="private_club_topics__list">Агресія</li>
+                                <li class="private_club_topics__list">Самооцінка</li>
+                                <li class="private_club_topics__list">Відповідальність</li>
+                                <li class="private_club_topics__list">Стан жертви</li>
+                                <li class="private_club_topics__list">Почуття "Я гідна"</li>
+                                <li class="private_club_topics__list">Близкість</li>
+                                <li class="private_club_topics__list">Впевненість</li>
+                                <li class="private_club_topics__list">Рід</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="question_page">
+                <div class="container">
+                    <div class="question_page__head-block">
+                        <div class="question_page__head-title-block">
+                            <h2 class="text-uppercase question_page__head-title">СКІЛЬКИ КОШТУЄ ОДНА СЕСІЯ У ХОРОШОГО
+                                ПСИХОЛОГА?</h2>
+                        </div>
+
+                        <div class="question_page__text-block">
+                            <p class="question_page__text">Від 2 тисяч гривень і вище за одну сесію. У нашому клубі за
+                                10
+                                тисяч
+                                гривень ви отримаєте доступ до 12 аудіо-лекцій з терапевтичними техніками (учасниці
+                                клубу
+                                кажуть,
+                                що за ефективністю кожна з них дорівнює сесії в психолога), а це лише 833 гривні!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="answer_page">
+                <div class="container">
+                    <div class="answer_page__head-block">
+                        <div class="answer_page__head-title-block">
+                            <h3 class="answer_page__head-title">Кому потрібен закритий клуб?</h3>
+                        </div>
+
+                        <div class="answer_page__text-block">
+                            <p class="answer_page__text">За мене дадуть відповідь дівчата, які вже пройшли программу</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="explanation_page" id="about_club">
+                <div class="container">
+                    <div class="explanation_page__head-block">
+                        <div class="explanation_page__head-title-block">
+                            <h3 class="explanation_page__head-title">Закритий клуб - це</h3>
+                        </div>
+
+                        <div class="explanation_page__line-block">
+                            <span class="explanation_page__line-left"></span>
+                            <img class="explanation_page__line-img" src="img/png/clover-black-50.png" alt="">
+                            <span class="explanation_page__line-right"></span>
+                        </div>
+
+                        <div class="explanation_page__list-main-block">
+                            <ul class="explanation_page__list-block">
+                                <li class="explanation_page__list">12 місяців доступу до всіх матеріалів з моменту
+                                    оплати
+                                </li>
+                                <li class="explanation_page__list-bold">Понад 1000 учасниць</li>
+                                <li class="explanation_page__list">12 найважливіших тем</li>
+                                <li class="explanation_page__list-bold">12 прямих ефірів у записі</li>
+                                <li class="explanation_page__list">2 бонусні лекції "Самоцінність" і "Адаптація"</li>
+                                <li class="explanation_page__list-bold">Закритий акаунт в інстаграмі з можливістю
+                                    поставити
+                                    запитання щодо уроків професійному психологу</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="text_page">
+                <div class="container">
+                    <div class="text_page__head-block">
+                        <div class="text_page__head-text-block">
+                            <p class="text_page__head-text">Спробуйте уявити, яким може бути ваше життя, якщо ви
+                                розберетеся
+                                зі
+                                страхами, почуттям провини, агресією, налагодите самооцінку, зможете відстоювати свої
+                                кордони,
+                                перестанете ображатися, візьмете нарешті відповідальність за своє життя і, забувши про
+                                роль
+                                жертви, станете талановитим автором своєї долі.</p>
+                        </div>
+
+                        <div class="text_page__text-block">
+                            <p class="text_page__text">Це буде життя зовсім іншої якості, де доросла усвідомлена і
+                                вільна
+                                особистість сміливо йде до реальності своєї мрії!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cost_page" id="cost">
+                <div class="container">
+                    <div class="cost_page__head-block">
+                        <div class="cost_page__head-title-block">
+                            <p class="cost_page__head-title">Вартість<br>10 000 грн</p>
+                        </div>
+
+                        <div class="cost_page__text-block">
+                            <p class="cost_page__text">Продажі поки що закриті</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pc_about_me" id="about_me">
+                <div class="container">
+                    <div class="pc_about_me__head-block">
+                        <div class="pc_about_me__head-img-block">
+                            <div class="pc_about_me__img-block">
+                                <img src="img/photo_pc_about-me.jpeg" alt="" class="img-fluid pc_about_me__img">
+                            </div>
+                        </div>
+
+                        <div class="pc_about_me__main-title-block">
+                            <div class="pc_about_me__head-title-block">
+                                <h3 class="text-uppercase pc_about_me__head-title">Олена Мельник</h3>
+                            </div>
+
+                            <div class="pc_about_me__title-block">
+                                <p class="text-uppercase pc_about_me__title">ПСИХОЛОГИНЯ, ПРАКТИКУЮЧА ЖІНОЧА ТРЕНЕРКА,
+                                    БЛОГЕРКА</p>
+                            </div>
+
+                            <div class="pc_about_me__head-text-block">
+                                <p class="pc_about_me__head-text">Спеціаліст кількох терапевтичних технік і автор
+                                    проєктів
+                                    із
+                                    розкриття сексуальності та збільшення фінансового благополуччя.</p>
+                            </div>
+
+                            <div class="pc_about_me__list-main-block">
+                                <ul class="pc_about_me__list-block">
+                                    <li class="pc_about_me__list">Диплом КНУ імені Тараса Шевченка</li>
+                                    <li class="pc_about_me__list">Більше 5 років практики</li>
+                                    <li class="pc_about_me__list">Більше 5000 проведених сесій</li>
+                                    <li class="pc_about_me__list">Творець 10 онлайн курсів</li>
+                                    <li class="pc_about_me__list">Мої курси пройшли понад 60 000 учасниць по всьому
+                                        світу
+                                    </li>
+                                    <li class="pc_about_me__list">Понад 300 000 жінок читають мій блог в Instagram</li>
+                                    <li class="pc_about_me__list">Автор власного каналу на <a href="#"
+                                            class="pc_about_me__list-link">YouTube</a></li>
+                                </ul>
+                            </div>
+                            </di>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="pc_testimonials" id="testimonials"> <!--карусель/слайди -->
+                <div class="container">
+                    <div class="pc_testimonials__head_block pc_testimonials__galeri">
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+
+                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <img src="img/foto_testimonials.jpeg" alt=""
+                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pc_btn">
+                <div class="container">
+                    <div class="pc_btn__head-block">
+                        <div class="text-center events__main-btn-drop-down-block">
+                            <button type="button" class="btn btn-secondary events__btn">Вступити в закритий
+                                клуб</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contacts">
+            <div class="container">
+                <div class="footer__contacts-block">
+
+                    <div class="text-center footer__logo-block">
+                        <a href="index.html" class="footer__logo">
+                            <img src="img/svg/logo_new.svg" alt="logo" class="footer__logo-img">
+                        </a>
+                    </div>
+
+                    <div class="row footer__contacts-info-blocks">
+                        <div class="col">
+                            <div class="footer__contacts-title-head-block">
+                                <div class="footer__contacts-title-block">
+                                    <p class="footer__title-contacts">Контакти:</p>
+                                </div>
+                                <div class="footer__contacts-block-email">
+                                    <p class="footer__contacts-item"> <span class="footer__contacts-type">Email:</span>
+                                        <a href="mailto:olena.melnyk.psychologist@gmail.com"
+                                            class="footer__contacts-email">olena.melnyk.psychologist@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="footer__contacts-title-head-block footer__contacts-messages">
+                                <div class="footer__contacts-title-block">
+                                    <p class="footer__title-contacts">Месенджери:</p>
+                                </div>
+                                <div class="footer__contacts-block-messages">
+                                    <a href="https://instagram.com/elenamelnyk.psyholog?igshid=YmMyMTA2M2Y="
+                                        target="_blank" rel="noopener"><img class="footer__contacts-nav-icons-img"
+                                            src="img/svg/instagram_icons.svg" alt="telegram" width="25"></a>
+
+                                    <a href="https://telegram.me/ELENA_MELNYK_PV" target="_blank" rel="noopener"><img
+                                            class="footer__contacts-nav-icons-img" src="img/svg/telegram_icons_new.svg"
+                                            alt="instagram" width="25"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer__contacts-line-block">
+                            <span class="footer__contacts-line"></span>
+                        </div>
+
+                        <div class="footer__copyright-block">
+                            <p class="footer__copyright-title">© Олена Мельник. Всі права захищені.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

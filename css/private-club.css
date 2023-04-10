@@ -1,0 +1,166 @@
+.private-club {
+    background-image: linear-gradient(to top, rgba(36, 29, 26, 0.7), rgba(36, 29, 26, .7)), url(../img/foto_about-me.JPG);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50% 33%;
+    margin-top: 74px;
+}
+
+.private-club__head-block {
+    padding: 20px 20px;
+}
+.private-club__head-title-up {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.private-club__head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+.private-club__line-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* .private-club__line-left,
+.private-club__line-right {
+    display: block;
+    content: " ";
+    width: 20%;
+    border: 1px solid;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+} */
+
+
+.element_animation {
+    display: block;
+    content: " ";
+    width: 20%;
+    border: 1px solid;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    opacity: 0;
+}
+
+.element_animation.element_show {
+    opacity: 1;
+    transition: opacity 4s;
+}
+
+
+
+.private-club__line-img {
+    padding: 0 20px;
+    width: 65px;
+}
+
+@media screen and (min-width: 457px) {
+    .private-club__head-title {
+        font-size: 44px;
+        letter-spacing: 9px;
+    }
+
+    .private-club__head-title-up {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (min-width: 485px) {
+    .private-club__head-title {
+        font-size: 48px;
+        letter-spacing: 10px;
+    }
+
+    .private-club__head-title-up {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .private-club__head-block {
+        padding: 65px 0;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    .private-club__line-left,
+    .private-club__line-right {
+        width: 20%;
+    }
+
+    .private-club__head-title {
+        font-size: 52px;
+        letter-spacing: 11px;
+    }
+
+    .private-club__line-img {
+        padding: 0 20px;
+        width: 85px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .private-club {
+        margin-top: 0;
+    }
+
+    .private-club__head-block {
+        padding: 140px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .private-club__head-block {
+        padding: 115px 0;
+    }
+
+    .private-club__line-left,
+    .private-club__line-right {
+        width: 15%;
+    }
+
+    .private-club__head-title {
+        font-size: 60px;
+        letter-spacing: 12px;
+    }
+
+    .private-club__head-title-up {
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+}
+
+.private-club__product {
+    background-color: var(--COLOR-BG-SECTION);
+}
+
+.private-club__product-head-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 20px;
+}
+
+.private-club__btn-block {
+    padding: 15px 0;
+}
+
+@media screen and (min-width: 767px) {
+    .private-club__product-head-block {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

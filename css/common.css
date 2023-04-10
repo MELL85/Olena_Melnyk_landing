@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --COLOR-TEXT: #5e5957;
+    --COLOR-TEXT-NAVMENU: #9c7035;
+    --COLOR-BG-DARK: #241d1a;
+    --COLOR-BG-BTN-BORDER: #debd9a;
+    --COLOR-BG-BTN: #53453b;
+    --COLOR-HEAD-TITLE: #322c29;
+    --COLOR-BG-SECTION: #d9cbbf;
+    --COLOR-BG-SECTION-LIGHT: #efebe6;
+    --COLOR-BG-BURGERMENU: #655e5a;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--COLOR-TEXT);
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-HEAD-TITLE);
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 767px) {
+    .head-title {
+        font-size: 32px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .head-title {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+.my__btn {
+    background-color: var(--COLOR-BG-BTN);
+    cursor: pointer;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    border-color: transparent;
+    border: solid var(--COLOR-TEXT-NAVMENU);
+    padding: 0.75rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    border-radius: 0.75rem;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.my__btn:hover {
+    background-color: var(--COLOR-BG-BTN-BORDER);
+    color: var(--COLOR-TEXT);
+}

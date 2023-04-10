@@ -1,0 +1,113 @@
+footer {
+    background-color: var(--COLOR-BG-DARK);
+    padding: 15px 0;
+}
+
+.footer__contacts-block {
+    padding: 0 5px;
+    color: var(--COLOR-TEXT-NAVMENU);
+}
+
+.footer__logo-img {
+    margin: 15px 0 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer__contacts-info-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.footer__title-contacts {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.footer__contacts-block-email {
+    padding: 0 0 5px;
+}
+
+.footer__contacts-email {
+    color: var(--COLOR-TEXT-NAVMENU);
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer__contacts-email:hover {
+    color: var(--COLOR-BG-SECTION-LIGHT);
+}
+
+.footer__contacts-messages {
+    display: flex;
+}
+
+.footer__contacts-title-block {
+    margin: 0 30px 0 0;
+}
+
+.footer__contacts-block-messages {
+    display: flex;
+}
+
+.footer__contacts-block-messages>a {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 10px 0;
+}
+
+.footer__contacts-title-head-block {
+    margin: 0 0 25px;
+}
+
+.footer__title-color {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer__title-color:hover {
+    color: var(--COLOR-BG-SECTION-LIGHT);
+}
+
+.footer__contacts-line-block {
+    display: flex;
+    margin: 9px 0 0;
+}
+
+.footer__contacts-line {
+    border-bottom: 1px solid var(--COLOR-TEXT-NAVMENU);
+    width: 100%;
+    color: transparent;
+}
+
+.footer__copyright-title {
+    margin: 15px 0 0;
+    font-size: 14px;
+    text-align: center;
+    color: var(--COLOR-TEXT-NAVMENU);
+}
+
+@media screen and (min-width: 992px) {
+    .footer__contacts-block {
+        padding: 0 40px;
+    }
+
+    .footer__contacts-info-blocks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer__contacts-messages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer__contacts-title-head-block {
+        padding: 0 0 0 30px;
+    }
+}
