@@ -71,7 +71,7 @@ main {
     cursor: pointer;
     color: var(--COLOR-BG-SECTION-LIGHT);
     border-color: transparent;
-    border: solid var(--COLOR-TEXT-NAVMENU);
+    border: 1px solid var(--COLOR-TEXT-NAVMENU);
     padding: 0.375rem 0.75rem;
     font-family: 'Titillium Web', sans-serif;
     font-size: 1rem;
