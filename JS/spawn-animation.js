@@ -14,10 +14,17 @@
         threshold: [0.5]
     };
     let observer = new IntersectionObserver(onEntry, options);
-    let elements = document.querySelectorAll('.element_animation');
+    let elementL = document.querySelectorAll('.element_animation-left');
+    let elementR = document.querySelectorAll('.element_animation-right');
     let elements1 = document.querySelectorAll('.element_animation_text');
 
-    for (let elm of elements) {
+
+
+    for (let elm of elementL) {
+        observer.observe(elm);
+    }
+
+    for (let elm of elementR) {
         observer.observe(elm);
     }
 
@@ -25,4 +32,5 @@
         observer.observe(elm);
     }            
 
+    
 })();

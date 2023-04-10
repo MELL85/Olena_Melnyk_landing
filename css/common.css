@@ -90,17 +90,29 @@ main {
     color: var(--COLOR-TEXT);
 }
 
-.element_animation {
+.element_animation-left {
     display: block;
     content: " ";
     border: 1px solid;
     color: var(--COLOR-BG-SECTION-LIGHT);
-    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: 100% 0%;
+    transition: transform 2s ease-in-out;
 }
 
+.element_animation-right {
+    display: block;
+    content: " ";
+    border: 1px solid;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    transform: scaleX(0);
+    transform-origin: 0% 100%;
+    transition: transform 2s ease-in-out;
+}
+
+
 .element_animation.element_show {
-    opacity: 1;
-    transition: opacity 5s;
+    transform: scaleX(1);
 }
 
 .element_animation_text {
