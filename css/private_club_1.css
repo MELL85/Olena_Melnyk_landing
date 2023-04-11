@@ -28,7 +28,7 @@
 }
 
 .private_club_home__head-title>span {
-font-size: 28px;
+    font-size: 28px;
 }
 
 .private_club_home__line-block {
@@ -103,7 +103,7 @@ font-size: 28px;
 
     .private_club_home__head-title>span {
         font-size: 32px;
-        }
+    }
 
     .private_club_1__line {
         width: 10%;
@@ -434,13 +434,9 @@ font-size: 28px;
     margin: 0 0 25px;
 }
 
-.explanation_page__line-left,
-.explanation_page__line-right {
-    display: block;
-    content: " ";
-    width: 20%;
-    border: 1px solid;
+.explanation_page__line {
     color: var(--COLOR-HEAD-TITLE);
+    width: 15%;
 }
 
 .explanation_page__line-img {
@@ -467,8 +463,7 @@ font-size: 28px;
 
 @media screen and (min-width: 576px) {
 
-    .explanation_page__line-left,
-    .explanation_page__line-right {
+    .explanation_page__line {
         width: 15%;
     }
 }
@@ -483,13 +478,16 @@ font-size: 28px;
     .explanation_page__list-bold {
         font-size: 20px;
     }
+
+    .explanation_page__line {
+        width: 10%;
+    }
 }
 
 @media screen and (min-width: 992px) {
 
-    .explanation_page__line-left,
-    .explanation_page__line-right {
-        width: 10%;
+    .explanation_page__line {
+        width: 8%;
     }
 }
 
@@ -512,9 +510,7 @@ font-size: 28px;
         padding: 0 0 40px;
     }
 
-
-    .explanation_page__line-left,
-    .explanation_page__line-right {
+    .explanation_page__line {
         width: 6%;
     }
 }
@@ -706,6 +702,10 @@ font-size: 28px;
     padding: 45px 20px;
 }
 
+.pc_testimonials__img-head-block {
+    display: none;
+}
+
 /* .pc_testimonials__img-block {
     text-align: center;
 } */
@@ -729,11 +729,32 @@ font-size: 28px;
     /* background-color: black !important; */
 }
 
-@media screen and (min-width: 1200px) {
-    .pc_testimonials__galeri {
-        display: flex;
-        gap: 1rem;
+@media screen and (min-width: 485px) {
+    .pc_testimonials__carousel-icon {
+        background-color: var(--COLOR-BG-BTN);
     }
+}
+
+@media screen and (min-width: 992px) {
+
+    .pc_testimonials__img-head-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .pc_testimonials__carousel {
+        display: none;
+    }
+
+    .pc_testimonials__img {
+        height: 430px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 1200px) {
 
     .pc_testimonials__galeri-img-block {
         flex: 1;

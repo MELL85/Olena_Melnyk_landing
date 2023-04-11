@@ -150,12 +150,15 @@
                     <div class="private_club_home__head-block">
                         <div class="private_club_home__head-title-block">
                             <h4 class="text-center text-uppercase private_club_home__head-title-up">Закритий клуб</h4>
-                            <h1 class="text-center private_club_home__head-title"><span>&#171</span>ПРОжиття<span>&#187</span></h1>
+                            <h1 class="text-center private_club_home__head-title">
+                                <span>&#171</span>ПРОжиття<span>&#187</span>
+                            </h1>
                         </div>
 
                         <div class="private_club_home__line-block">
                             <span class="element_animation element_animation-left private_club_1__line"></span>
-                            <img class="private_club_home__line-img element_animation_text" src="img/png/clover-light-50.png" alt="">
+                            <img class="private_club_home__line-img element_animation_text"
+                                src="img/png/clover-light-50.png" alt="">
                             <span class="element_animation element_animation-right private_club_1__line"></span>
                         </div>
 
@@ -204,7 +207,8 @@
                         <div class="text-center private_club_topics__line-block">
                             <span
                                 class="element_animation element_animation-left private_club_topics__black-line"></span>
-                            <img class="private_club_topics__line-img element_animation_text" src="img/png/clover-black-50.png" alt="">
+                            <img class="private_club_topics__line-img element_animation_text"
+                                src="img/png/clover-black-50.png" alt="">
                             <span
                                 class="element_animation element_animation-right private_club_topics__black-line"></span>
                         </div>
@@ -272,9 +276,10 @@
                         </div>
 
                         <div class="explanation_page__line-block">
-                            <span class="explanation_page__line-left"></span>
-                            <img class="explanation_page__line-img" src="img/png/clover-black-50.png" alt="">
-                            <span class="explanation_page__line-right"></span>
+                            <span class="element_animation element_animation-left explanation_page__line"></span>
+                            <img class="explanation_page__line-img element_animation_text"
+                                src="img/png/clover-black-50.png" alt="">
+                            <span class="element_animation element_animation-right explanation_page__line"></span>
                         </div>
 
                         <div class="explanation_page__list-main-block">
@@ -379,10 +384,9 @@
 
             <section class="pc_testimonials" id="testimonials"> <!--карусель/слайди -->
                 <div class="container">
-                    <div class="pc_testimonials__head_block pc_testimonials__galeri">
+                    <div class="pc_testimonials__head_block">
 
-
-                        <div id="carouselExampleIndicators" class="carousel slide">
+                        <div id="carouselExampleIndicators" class="carousel slide pc_testimonials__carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                     class="active carousel_line" aria-current="true" aria-label="Slide 1"></button>
@@ -397,69 +401,76 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/foto_testimonials.jpeg" class="d-block w-100 pc-testimonials__carousel-img" alt="...">
+                                    <img src="img/foto_testimonials.jpeg"
+                                        class="d-block w-100 pc-testimonials__carousel-img" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/foto_carousel.JPG" class="d-block w-100 pc-testimonials__carousel-img" alt="...">
+                                    <img src="img/foto_carousel.JPG" class="d-block w-100 pc-testimonials__carousel-img"
+                                        alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/foto_testimonials.jpeg" class="d-block w-100 pc-testimonials__carousel-img" alt="...">
+                                    <img src="img/foto_testimonials.jpeg"
+                                        class="d-block w-100 pc-testimonials__carousel-img" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/foto_carousel.JPG" class="d-block w-100 pc-testimonials__carousel-img" alt="...">
+                                    <img src="img/foto_carousel.JPG" class="d-block w-100 pc-testimonials__carousel-img"
+                                        alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/foto_testimonials.jpeg" class="d-block w-100 pc-testimonials__carousel-img" alt="...">
+                                    <img src="img/foto_testimonials.jpeg"
+                                        class="d-block w-100 pc-testimonials__carousel-img" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
                                 data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="carousel-control-prev-icon pc_testimonials__carousel-icon"
+                                    aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button"
                                 data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="carousel-control-next-icon pc_testimonials__carousel-icon"
+                                    aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
 
+                        <div class="pc_testimonials__img-head-block pc_testimonials__galeri">
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
 
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
 
-                        <!-- <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
 
-                        <!-- <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
 
-                        <!-- <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
 
-                        <!-- <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
-                        <!-- 
-                        <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
 
-                        <!-- <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
-
-                        <!-- <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                            <img src="img/foto_testimonials.jpeg" alt=""
-                                class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
-                        </div> -->
+                                <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                                    <img src="img/foto_testimonials.jpeg" alt=""
+                                        class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                </div>
+                        </div>
                     </div>
                 </div>
             </section>
