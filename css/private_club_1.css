@@ -64,6 +64,25 @@
     font-weight: 500;
 }
 
+.private_club__btn {
+    padding: 10px;
+    margin-top: 20px;
+    /* animation: blink 2s infinite; */
+}
+
+.private_club__btn-text {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.3;
+    }
+}
+
 @media screen and (min-width: 576px) {
 
     .private_club_home__head-block {
@@ -578,6 +597,12 @@
    padding: 15px 10px;
    width: 240px;
    box-shadow: 10px 5px 5px var(--COLOR-BG-DARK);
+}
+
+.cost_page__btn-products {
+    text-transform: uppercase;
+    background-color: var(--COLOR-BG-BTN-COST);
+    /* padding: 10px; */
 }
 
 .cost_page__title {
