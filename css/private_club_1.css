@@ -564,40 +564,66 @@
 }
 
 .cost_page__head-block {
-    padding: 150px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 100px 20px;
     text-align: center;
 }
-
-.cost_page__head-title-block {
-    margin: 0 0 30px;
+.cost_page__head-block-products {
+   border: 1px solid var(--COLOR-HEAD-TITLE);
+   border-radius: 20px;
+   background-color: var(--COLOR-BG-SECTION-LIGHT);
+   padding: 15px 10px;
+   width: 240px;
+   box-shadow: 10px 5px 5px var(--COLOR-BG-DARK);
 }
 
-.cost_page__head-title,
-.cost_page__text {
-    font-family: 'Playfair Display', serif;
+.cost_page__title {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Titillium Web', sans-serif;
     color: var(--COLOR-HEAD-TITLE);
-    font-size: 28px;
-    letter-spacing: 1.5px;
+    font-size: 22px;
+    margin-bottom: 0;
+    text-shadow: var(--COLOR-BG-SECTION) 1px 0 10px;
 }
 
-.cost_page__text {
-    font-weight: 600;
+.cost_page__block-title {
+    margin-bottom: 10px;
 }
+
+@media screen and (min-width: 767px) {
+    .cost_page__head-block {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .cost_page__head-block-products {
+        width: 280px;
+    }
+
+    .cost_page__title {
+        font-size: 26px;
+    }
+}
+
 
 @media screen and (min-width: 992px) {
 
-    .cost_page__head-title,
-    .cost_page__text {
-        font-size: 32px;
-    }
+
 }
 
 @media screen and (min-width: 1200px) {
-
-    .cost_page__head-title,
-    .cost_page__text {
-        font-size: 36px;
+    .cost_page__head-block-products {
+        width: 320px;
     }
+
+    .cost_page__title {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -706,19 +732,7 @@
     display: none;
 }
 
-/* .pc_testimonials__img-block {
-    text-align: center;
-} */
-
-/* .pc_testimonials__img {
-    margin: 20px 0 0;
-    height: 320px;
-    object-fit: contain;
-    padding: 0 20px 20px;
-} */
-
 .pc-testimonials__carousel-img {
-    /* height: 300px; */
     height: 500px;
     object-fit: contain;
 }
@@ -726,7 +740,6 @@
 .carousel_line {
     width: 3px !important;
     border-radius: 50% !important;
-    /* background-color: black !important; */
 }
 
 @media screen and (min-width: 485px) {

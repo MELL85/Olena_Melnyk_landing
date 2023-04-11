@@ -122,5 +122,5 @@ main {
 
 .element_animation_text.element_show {
     opacity: 1;
-    transition: opacity 3s;
+    transition: opacity 2s;
 }
