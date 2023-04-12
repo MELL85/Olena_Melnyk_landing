@@ -14,4 +14,8 @@
         menu.classList.toggle('menu__down');
     })
 
-})();
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('menu__down');
+        iconBurger.classList.toggle("active");
+    })
+    }) ();
