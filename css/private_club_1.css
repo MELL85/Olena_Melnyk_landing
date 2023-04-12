@@ -379,7 +379,7 @@
 }
 
 .answer_page__head-block {
-    padding: 45px 20px;
+    padding: 45px 20px 0;
 }
 
 .answer_page__head-title-block {
@@ -421,6 +421,68 @@
 
     .answer_page__text {
         font-size: 20px;
+    }
+}
+
+
+/* pc_testimonials */
+.pc_testimonials {
+    background-color: var(--COLOR-BG-SECTION);
+}
+
+.pc_testimonials__head_block {
+    padding: 20px 20px 45px;
+}
+
+.pc_testimonials__img-head-block {
+    display: none;
+}
+
+.pc-testimonials__carousel-img {
+    height: 450px;
+    /* width: 18rem; */
+    object-fit: contain;
+}
+
+.carousel_line {
+    width: 3px !important;
+    border-radius: 50% !important;
+}
+
+@media screen and (min-width: 485px) {
+    .pc_testimonials__carousel-icon {
+        background-color: var(--COLOR-BG-BTN);
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .pc_testimonials__img-head-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .pc_testimonials__carousel {
+        display: none;
+    }
+
+    .pc_testimonials__img {
+        height: 430px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .pc_testimonials__galeri-img-block {
+        flex: 1;
+        transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    }
+
+    .pc_testimonials__galeri-img-block:hover {
+        flex: 5;
     }
 }
 
@@ -744,70 +806,9 @@
 }
 
 
-/* pc_testimonials */
-.pc_testimonials {
-    background-color: var(--COLOR-BG-SECTION);
-}
-
-.pc_testimonials__head_block {
-    padding: 45px 20px;
-}
-
-.pc_testimonials__img-head-block {
-    display: none;
-}
-
-.pc-testimonials__carousel-img {
-    height: 500px;
-    object-fit: contain;
-}
-
-.carousel_line {
-    width: 3px !important;
-    border-radius: 50% !important;
-}
-
-@media screen and (min-width: 485px) {
-    .pc_testimonials__carousel-icon {
-        background-color: var(--COLOR-BG-BTN);
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    .pc_testimonials__img-head-block {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-        justify-content: center;
-    }
-
-    .pc_testimonials__carousel {
-        display: none;
-    }
-
-    .pc_testimonials__img {
-        height: 430px;
-        object-fit: contain;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-    .pc_testimonials__galeri-img-block {
-        flex: 1;
-        transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
-    }
-
-    .pc_testimonials__galeri-img-block:hover {
-        flex: 5;
-    }
-}
-
-
 /* pc_btn */
 .pc_btn {
-    background-color: var(--COLOR-BG-SECTION-LIGHT);
+    background-color: var(--COLOR-BG-SECTION);
 }
 
 .pc_btn__head-block {
