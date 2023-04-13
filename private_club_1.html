@@ -10,12 +10,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script defer src="JS/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
     <script defer src="JS/burger-menu.js"></script>
     <script defer src="JS/nav-menu-fixed.js"></script>
     <script defer src="JS/spawn-animation.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script defer src="JS/slick.min.js"></script>
     <script defer src="JS/slider-coverflow.js"></script>
 </head>
 
@@ -270,89 +269,34 @@
 
                     <div class="pc_testimonials__head_block" id="testimonials">
 
-                        <div id="carouselExampleIndicators" class="carousel slide pc_testimonials__carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active carousel_line" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2" class="carousel_line"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3" class="carousel_line"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                                    aria-label="Slide 4" class="carousel_line"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                                    aria-label="Slide 5" class="carousel_line"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/foto_testimonials.jpeg"
-                                        class="d-block w-100 pc-testimonials__carousel-img" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/foto_carousel.JPG" class="d-block w-100 pc-testimonials__carousel-img"
-                                        alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/foto_testimonials.jpeg"
-                                        class="d-block w-100 pc-testimonials__carousel-img" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/foto_carousel.JPG" class="d-block w-100 pc-testimonials__carousel-img"
-                                        alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/foto_testimonials.jpeg"
-                                        class="d-block w-100 pc-testimonials__carousel-img" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon pc_testimonials__carousel-icon"
-                                    aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon pc_testimonials__carousel-icon"
-                                    aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-
-                        <div class="pc_testimonials__img-head-block pc_testimonials__galeri">
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                                <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                        <div class="pc_testimonials__img-head-block slider">
+                            <div class="pc_testimonials__img-block slider__item">
+                                <img src="img/foto_testimonials.jpeg" alt="" class="pc_testimonials__img">
                             </div>
 
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
+                            <div class="pc_testimonials__img-block slider__item">
                                 <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                                    class="pc_testimonials__img pc_testimonials__galeri-img">
                             </div>
 
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                                <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                            <div class="pc_testimonials__img-block slider__item">
+                                <img src="img/foto_testimonials.jpeg" alt="" class="pc_testimonials__img">
                             </div>
 
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                                <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                            <div class="pc_testimonials__img-block slider__item">
+                                <img src="img/foto_testimonials.jpeg" alt="" class="pc_testimonials__img">
                             </div>
 
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                                <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                            <div class="pc_testimonials__img-block slider__item">
+                                <img src="img/foto_testimonials.jpeg" alt="" class="pc_testimonials__img">
                             </div>
 
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                                <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                            <div class="pc_testimonials__img-block slider__item">
+                                <img src="img/foto_testimonials.jpeg" alt="" class="pc_testimonials__img">
                             </div>
 
-                            <div class="pc_testimonials__img-block pc_testimonials__galeri-img-block">
-                                <img src="img/foto_testimonials.jpeg" alt=""
-                                    class="img-fluid pc_testimonials__img pc_testimonials__galeri-img">
+                            <div class="pc_testimonials__img-block slider__item">
+                                <img src="img/foto_testimonials.jpeg" alt="" class="pc_testimonials__img">
                             </div>
                         </div>
                     </div>
