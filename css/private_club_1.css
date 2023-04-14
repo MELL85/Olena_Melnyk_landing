@@ -730,6 +730,7 @@
     font-family: 'Titillium Web', sans-serif;
     color: var(--COLOR-HEAD-TITLE);
     font-size: 14px;
+    padding: 0 15px;
 }
 
 .cost_page__block-title {
