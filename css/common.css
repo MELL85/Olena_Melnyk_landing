@@ -91,6 +91,10 @@ main {
     color: var(--COLOR-TEXT);
 }
 
+.my__btn-uppercase {
+    text-transform: uppercase;
+}
+
 .element_animation-left {
     display: block;
     content: " ";

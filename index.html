@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Олена Мельник</title>
+    <title data-lang="tabTitle">Олена Мельник</title>
     <link rel="shortcut icon" href="img/png/icon_logo_new_1.png" type="image/png">
     <link href="css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script defer src="JS/burger-menu.js"></script>
-     <script defer src="JS/nav-menu-fixed.js" ></script>
+    <script defer src="JS/nav-menu-fixed.js"></script>
     <script defer src="JS/spawn-animation.js"></script>
+    <script defer src="JS/translation.js"></script>
 </head>
 
 <body>
@@ -36,15 +37,15 @@
                                         <span class="header__burger-menu-line"></span>
                                     </div>
 
-                                    <div class="header-mobile__burgermenu-icon-language-block">
+                                    <div class="header-mobile__burgermenu-icon-language-block" id="lang">
                                         <div class="header-mobile__burgermenu-icon-language-link-block">
-                                            <a href="#">UA</a>
+                                            <button type="button" class="lang-btn" data-btn="ua">UA</button>
                                         </div>
                                         <div class="header-mobile__burgermenu-icon-language-line-block">
                                             <span class="header-mobile__burgermenu-icon-language-line"></span>
                                         </div>
                                         <div class="header-mobile__burgermenu-icon-language-link-block">
-                                            <a href="#">EN</a>
+                                            <button type="button" class="lang-btn" data-btn="en">EN</button>
                                         </div>
                                     </div>
                                 </div>
@@ -58,13 +59,13 @@
                         <nav class="header__burgermenu-blocks">
                             <ul class="header__burgermenu-ul-blocks">
                                 <li class="header__burgermenu-title-block">
-                                    <a href="index.html" class="header__burgermenu-title">Головна</a>
+                                    <a href="index.html" class="header__burgermenu-title" data-lang="navHead">Головна</a>
                                 </li>
                                 <li class="header__burgermenu-title-block">
-                                    <a href="private_club_1.html" class="header__burgermenu-title">Закритий клуб</a>
+                                    <a href="private_club_1.html" class="header__burgermenu-title" data-lang="navPrivate">Закритий клуб</a>
                                 </li>
                                 <li class="header__burgermenu-title-block">
-                                    <a href="contacts.html" class="header__burgermenu-title">Контакти</a>
+                                    <a href="contacts.html" class="header__burgermenu-title" data-lang="navContacts">Контакти</a>
                                 </li>
                             </ul>
                         </nav>
@@ -86,25 +87,27 @@
                             <nav class="header-desctop__burgermenu-blocks">
                                 <ul class="header-desctop__burgermenu-ul-blocks">
                                     <li class="header-desctop__burgermenu-title-block">
-                                        <a href="index.html" class="header__burgermenu-title">Головна</a>
+                                        <a href="index.html" class="header__burgermenu-title" data-lang="navHeadDesctop">Головна</a>
                                     </li>
                                     <li class="header-desctop__burgermenu-title-block">
-                                        <a href="private_club_1.html" class="header__burgermenu-title">Закритий клуб</a>
+                                        <a href="private_club_1.html"
+                                            class="header__burgermenu-title" data-lang="navPrivateDesctop">Закритий клуб</a>
                                     </li>
                                     <li class="header-desctop__burgermenu-title-block">
-                                        <a href="contacts.html" class="header__burgermenu-title">Контакти</a>
+                                        <a href="contacts.html"
+                                            class="header__burgermenu-title" data-lang="navContactsDesctop">Контакти</a>
                                     </li>
                                 </ul>
 
-                                <div class="header-desctop__burgermenu-icon-language-block">
+                                <div class="header-desctop__burgermenu-icon-language-block" id="lang">
                                     <div class="header-desctop__burgermenu-icon-language-link-block">
-                                        <a href="#">UA</a>
+                                        <button type="button" class="lang-btn" data-btn="ua">UA</button>
                                     </div>
                                     <div class="header-desctop__burgermenu-icon-language-line-block">
                                         <span class="header-desctop__burgermenu-icon-language-line"></span>
                                     </div>
                                     <div class="header-desctop__burgermenu-icon-language-link-block">
-                                        <a href="#">EN</a>
+                                        <button type="button" class="lang-btn" data-btn="en">EN</button>
                                     </div>
                                 </div>
                             </nav>
@@ -119,13 +122,15 @@
                 <div class="container">
                     <div class="private-club__head-block">
                         <div class="private-club__head-title-block">
-                            <h4 class="text-center text-uppercase private-club__head-title-up">Закритий клуб</h4>
-                            <h1 class="text-center private-club__head-title">&#171ПРОжиття&#187</h1>
+                            <h4 class="text-center text-uppercase private-club__head-title-up" data-lang="mainPrivate">Закритий
+                                клуб</h4>
+                            <h1 class="text-center private-club__head-title">&#171<span data-lang="headTitleLife">ПРОжиття</span>&#187</h1>
                         </div>
 
                         <div class="private-club__line-block">
                             <span class="element_animation element_animation-left pc__line"></span>
-                            <img class="private-club__line-img element_animation_text" src="img/png/clover-light-50.png" alt="">
+                            <img class="private-club__line-img element_animation_text" src="img/png/clover-light-50.png"
+                                alt="">
                             <span class="element_animation element_animation-right pc__line"></span>
                         </div>
                     </div>
@@ -137,8 +142,7 @@
                     <div class="private-club__product-head-block">
                         <div class="private-club__btn-block">
                             <a href="private_club_1.html">
-                                <button type="button" class="my__btn">Вступити в закритий
-                                    клуб</button>
+                                <button type="button" class="my__btn" data-lang="btnLong">Вступити в закритий клуб</button>
                             </a>
                         </div>
                     </div>
@@ -160,7 +164,7 @@
                         <div class="col">
                             <div class="footer__contacts-title-head-block">
                                 <div class="footer__contacts-title-block">
-                                    <p class="footer__title-contacts">Контакти:</p>
+                                    <p class="footer__title-contacts"><span data-lang="footerContacts">Контакти</span>:</p>
                                 </div>
                                 <div class="footer__contacts-block-email">
                                     <p class="footer__contacts-item"> <span class="footer__contacts-type">Email:</span>
@@ -174,7 +178,7 @@
                         <div class="col">
                             <div class="footer__contacts-title-head-block footer__contacts-messages">
                                 <div class="footer__contacts-title-block">
-                                    <p class="footer__title-contacts">Месенджери:</p>
+                                    <p class="footer__title-contacts"><span data-lang="messengers">Месенджери</span>:</p>
                                 </div>
                                 <div class="footer__contacts-block-messages">
                                     <a href="https://instagram.com/elenamelnyk.psyholog?igshid=YmMyMTA2M2Y="
@@ -193,7 +197,7 @@
                         </div>
 
                         <div class="footer__copyright-block">
-                            <p class="footer__copyright-title">© Олена Мельник. Всі права захищені.</p>
+                            <p class="footer__copyright-title">© <span data-lang="copyright-title">Олена Мельник. Всі права захищені.</span></p>
                         </div>
 
                     </div>

@@ -8,8 +8,9 @@
 }
 
 .private-club__head-block {
-    padding: 20px 20px;
+    padding: 20px 4px;
 }
+
 .private-club__head-title-up {
     font-family: 'Playfair Display', serif;
     color: var(--COLOR-BG-SECTION-LIGHT);
@@ -24,6 +25,10 @@
     font-size: 40px;
     letter-spacing: 8px;
     font-weight: 600;
+}
+
+.private-club__head-title-uppercase {
+    text-transform: uppercase;
 }
 
 .private-club__line-block {
