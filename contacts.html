@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Олена Мельник</title>
+    <title data-lang="tabTitle">Олена Мельник</title>
     <link rel="shortcut icon" href="img/png/icon_logo_new_1.png" type="image/png">
     <link href="css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script defer src="JS/burger-menu.js"></script>
     <script defer src="JS/nav-menu-fixed.js"></script>
+    <script defer src="JS/translation.js"></script>
 </head>
 
 <body>
@@ -37,13 +38,13 @@
 
                                     <div class="header-mobile__burgermenu-icon-language-block">
                                         <div class="header-mobile__burgermenu-icon-language-link-block">
-                                            <a href="#">UA</a>
+                                            <button type="button" class="lang-btn" data-btn="ua">UA</button>
                                         </div>
                                         <div class="header-mobile__burgermenu-icon-language-line-block">
                                             <span class="header-mobile__burgermenu-icon-language-line"></span>
                                         </div>
                                         <div class="header-mobile__burgermenu-icon-language-link-block">
-                                            <a href="#">EN</a>
+                                            <button type="button" class="lang-btn" data-btn="en">EN</button>
                                         </div>
                                     </div>
                                 </div>
@@ -57,13 +58,13 @@
                         <nav class="header__burgermenu-blocks">
                             <ul class="header__burgermenu-ul-blocks">
                                 <li class="header__burgermenu-title-block">
-                                    <a href="index.html" class="header__burgermenu-title">Головна</a>
+                                    <a href="index.html" class="header__burgermenu-title" data-lang="navHead">Головна</a>
                                 </li>
                                 <li class="header__burgermenu-title-block">
-                                    <a href="private_club_1.html" class="header__burgermenu-title">Закритий клуб</a>
+                                    <a href="private_club_1.html" class="header__burgermenu-title" data-lang="navPrivate">Закритий клуб</a>
                                 </li>
                                 <li class="header__burgermenu-title-block">
-                                    <a href="contacts.html" class="header__burgermenu-title">Контакти</a>
+                                    <a href="contacts.html" class="header__burgermenu-title" data-lang="navContacts">Контакти</a>
                                 </li>
                             </ul>
                         </nav>
@@ -87,25 +88,25 @@
                             <nav class="header-desctop__burgermenu-blocks">
                                 <ul class="header-desctop__burgermenu-ul-blocks">
                                     <li class="header-desctop__burgermenu-title-block">
-                                        <a href="index.html" class="header__burgermenu-title">Головна</a>
+                                        <a href="index.html" class="header__burgermenu-title" data-lang="navHead">Головна</a>
                                     </li>
                                     <li class="header-desctop__burgermenu-title-block">
-                                        <a href="private-club.html" class="header__burgermenu-title">Закритий клуб</a>
+                                        <a href="private_club_1.html" class="header__burgermenu-title" data-lang="navPrivate">Закритий клуб</a>
                                     </li>
                                     <li class="header-desctop__burgermenu-title-block">
-                                        <a href="contacts.html" class="header__burgermenu-title">Контакти</a>
+                                        <a href="contacts.html" class="header__burgermenu-title" data-lang="navContacts">Контакти</a>
                                     </li>
                                 </ul>
 
                                 <div class="header-desctop__burgermenu-icon-language-block">
                                     <div class="header-desctop__burgermenu-icon-language-link-block">
-                                        <a href="#">UA</a>
+                                        <button type="button" class="lang-btn" data-btn="ua">UA</button>
                                     </div>
                                     <div class="header-desctop__burgermenu-icon-language-line-block">
                                         <span class="header-desctop__burgermenu-icon-language-line"></span>
                                     </div>
                                     <div class="header-desctop__burgermenu-icon-language-link-block">
-                                        <a href="#">EN</a>
+                                        <button type="button" class="lang-btn" data-btn="en">EN</button>
                                     </div>
                                 </div>
                             </nav>
@@ -122,11 +123,11 @@
                         <div class="contacts_page__info-block">
                             <div class="contacts_page__info-head-block">
                                 <div class="contacts_page__head-title-block">
-                                    <h2 class="contacts_page__head-title head-title">Звʼяжіться зі мною</h2>
+                                    <h2 class="contacts_page__head-title head-title" data-lang="contactHeadTitle">Звʼяжіться зі мною</h2>
                                 </div>
 
                                 <div class="contacts_page__head-text-block">
-                                    <p class="contacts_page__head-text">Якщо у вас є будь-які запитання або запити про
+                                    <p class="contacts_page__head-text" data-lang="contactText">Якщо у вас є будь-які запитання або запити про
                                         проблему
                                         з
                                         психічним здоров'ям, будь ласка, не соромтеся. Не соромтеся звертатися до мене,
@@ -139,23 +140,23 @@
                             <div class="contacts_page__contacts-block">
                                 <div class="contacts_page__address-block">
                                     <div class="contacts_page__address-title-block">
-                                        <h5 class="contacts_page__address-title">Адреса</h5>
+                                        <h5 class="contacts_page__address-title" data-lang="contactAdrTitle">Адреса</h5>
                                     </div>
 
                                     <div class="contacts_page__address-text-block">
-                                        <p class="contacts_page__address-text">вул. Шота Руставелі, 39/41, оф.210</p>
-                                        <p class="contacts_page__address-text">м. Київ, Україна</p>
+                                        <p class="contacts_page__address-text" data-lang="contactAdrTextUp">вул. Шота Руставелі, 39/41, оф.210</p>
+                                        <p class="contacts_page__address-text" data-lang="contactAdrText">м. Київ, Україна</p>
                                     </div>
                                 </div>
 
                                 <div class="contacts_page__message-block">
                                     <div class="contacts_page__message-title-block">
-                                        <h5 class="contacts_page__message-title">Контакти</h5>
+                                        <h5 class="contacts_page__message-title" data-lang="contactCont">Контакти</h5>
                                     </div>
 
                                     <div class="contacts_page__message-text-block">
                                         <div class="contacts_page__message-email-block">
-                                            <p class="contacts_page__email">Електронна пошта:</p>
+                                            <p class="contacts_page__email" data-lang="contactEmail">Електронна пошта:</p>
                                             <a href="mailto:olena.melnyk.psychologist@gmail.com"
                                                 class="contacts-item">olena.melnyk.psychologist@gmail.com</a>
                                         </div>
@@ -190,7 +191,7 @@
 
                         <div class="contacts_page__form-head-block">
                             <div class="contacts_page__form-block">
-                                <form action="https://formspree.io/f/xwkjnogj" method="post"> <!--настроить форму -->
+                                <form action="https://formspree.io/f/xwkjnogj" method="post">
                                     <div class="contacts_page__head-input">
                                         <input class="contacts_page__input" type="text" name="user-name"
                                             placeholder="Ваше імʼя*" required>
@@ -209,8 +210,10 @@
                                     </div>
 
                                     <div class="text-center events__main-btn-drop-down-block contacts_page__btn-block">
-                                        <input class="text-center my__btn"
-                                            type="submit" value="Записатись">
+                                        <!-- <input class="text-center my__btn"
+                                            type="submit" value="Записатись"> -->
+                                            <button type="submit" class="my__btn"><span
+                                                class="contacts__btn-text" data-lang="btnForm">Записатись</span></button>
                                     </div>
                                 </form>
                             </div>
@@ -234,7 +237,7 @@
                         <div class="col">
                             <div class="footer__contacts-title-head-block">
                                 <div class="footer__contacts-title-block">
-                                    <p class="footer__title-contacts">Контакти:</p>
+                                    <p class="footer__title-contacts" data-lang="navContacts">Контакти:</p>
                                 </div>
                                 <div class="footer__contacts-block-email">
                                     <p class="footer__contacts-item"> <span class="footer__contacts-type">Email:</span>
@@ -248,7 +251,7 @@
                         <div class="col">
                             <div class="footer__contacts-title-head-block footer__contacts-messages">
                                 <div class="footer__contacts-title-block">
-                                    <p class="footer__title-contacts">Месенджери:</p>
+                                    <p class="footer__title-contacts" data-lang="messengers">Месенджери:</p>
                                 </div>
                                 <div class="footer__contacts-block-messages">
                                     <a href="https://instagram.com/elenamelnyk.psyholog?igshid=YmMyMTA2M2Y="
@@ -267,7 +270,7 @@
                         </div>
 
                         <div class="footer__copyright-block">
-                            <p class="footer__copyright-title">© Олена Мельник. Всі права захищені.</p>
+                            <p class="footer__copyright-title">© <span data-lang="copyright-title">Олена Мельник. Всі права захищені.</span></p>
                         </div>
 
                     </div>

@@ -117,7 +117,10 @@
 .contacts_page__message-form:focus {
     border: 1px solid var(--COLOR-TEXT-NAVMENU);
     border-radius: 5px;
+}
 
+.contacts__btn-text {
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 767px) {
