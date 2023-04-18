@@ -14,6 +14,9 @@
     --COLOR-BG-SECTION-LIGHT: #efebe6;
     --COLOR-BG-BURGERMENU: #655e5a;
     --COLOR-BG-BTN-COST: #6e3f24;
+    --COLOR-BG-CARD-COST: #b59482;
+    --COLOR-BG-CARD-BORDER: #a67c69;
+    --COLOR-BG-CARD-SHADOW: #a67c69;
 
     scroll-behavior: smooth;
 }

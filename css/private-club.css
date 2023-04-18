@@ -1,6 +1,7 @@
 .private-club {
     background-image: linear-gradient(to top, rgba(36, 29, 26, 0.7), rgba(36, 29, 26, .7)), url(../img/foto_about-me.JPG);
     background-size: cover;
+    /* background-blend-mode: color; */
     height: 100vh;
     background-repeat: no-repeat;
     background-position: 50% 33%;

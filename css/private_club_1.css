@@ -65,19 +65,19 @@
 }
 
 .private_club__btn {
-    padding: 10px;
+    /* padding: 10px; */
     margin-top: 20px;
-    animation: blink 2s infinite;
-}
-
-.private_club__btn-text {
     /* animation: blink 2s infinite; */
-    text-transform: uppercase;
 }
 
-@keyframes blink {
+/* .private_club__btn-text {
+    animation: blink 2s infinite;
+    text-transform: uppercase;
+} */
+
+/* @keyframes blink {
     from {
-        /* box-shadow: 7px 5px 56px -14px var(--COLOR-TEXT-NAVMENU); */
+        box-shadow: 7px 5px 56px -14px var(--COLOR-TEXT-NAVMENU);
         box-shadow: 7px 5px 56px 10px var(--COLOR-TEXT-NAVMENU);
     }
 
@@ -85,7 +85,7 @@
         transform: scale(0.97);
         box-shadow: 7px 5px 56px -10px var(--COLOR-TEXT-NAVMENU);
     }
-}
+} */
 
 /* @keyframes blink {
     from {
@@ -96,6 +96,47 @@
         opacity: 0.3;
     }
 } */
+
+/* ================================================ */
+
+
+.my__btn-test {
+    border: none;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    background-image: linear-gradient(30deg, #53453b, #746153, #958579);
+    border-radius: 0.75rem;
+    background-size: 100% auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    padding: 0.6em 1.5em;
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+.my__btn-test:hover {
+    color: var(--COLOR-HEAD-TITLE);
+}
+
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #958579;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+/* ================================================= */
+
+
 
 @media screen and (min-width: 576px) {
 
@@ -714,13 +755,13 @@
 }
 
 .cost_page__head-block-products {
-    border: 1px solid #a67c69;
+    border: 1px solid var(--COLOR-BG-CARD-BORDER);
     border-radius: .75rem;
-    background-color: #b59482;
+    background-color: var(--COLOR-BG-CARD-COST);
     padding: 15px 10px;
     width: 240px;
     /* box-shadow: 10px 5px 5px #684a44; */
-    box-shadow: 10px 5px 20px #a67c69;
+    box-shadow: 10px 5px 20px var(--COLOR-BG-CARD-SHADOW);
 }
 
 .cost_page__btn-products {
@@ -729,6 +770,10 @@
     margin-top: 25px;
     /* padding: 10px; */
 }
+
+/* =============================== */
+
+/* ================================ */
 
 .cost_page__title {
     /* font-family: 'Playfair Display', serif; */
