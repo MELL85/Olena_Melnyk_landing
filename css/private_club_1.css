@@ -65,42 +65,11 @@
 }
 
 .private_club__btn {
-    /* padding: 10px; */
     margin-top: 20px;
-    /* animation: blink 2s infinite; */
 }
 
-/* .private_club__btn-text {
-    animation: blink 2s infinite;
-    text-transform: uppercase;
-} */
 
-/* @keyframes blink {
-    from {
-        box-shadow: 7px 5px 56px -14px var(--COLOR-TEXT-NAVMENU);
-        box-shadow: 7px 5px 56px 10px var(--COLOR-TEXT-NAVMENU);
-    }
-
-    to {
-        transform: scale(0.97);
-        box-shadow: 7px 5px 56px -10px var(--COLOR-TEXT-NAVMENU);
-    }
-} */
-
-/* @keyframes blink {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0.3;
-    }
-} */
-
-/* ================================================ */
-
-
-.my__btn-test {
+.my__btn-blink {
     border: none;
     color: var(--COLOR-BG-SECTION-LIGHT);
     background-image: linear-gradient(30deg, #53453b, #746153, #958579);
@@ -115,28 +84,23 @@
     animation: pulse512 1.5s infinite;
 }
 
-.my__btn-test:hover {
+.my__btn-blink:hover {
     color: var(--COLOR-HEAD-TITLE);
 }
 
-   @keyframes pulse512 {
+@keyframes pulse512 {
     0% {
-     box-shadow: 0 0 0 0 #958579;
+        box-shadow: 0 0 0 0 #958579;
     }
-   
+
     70% {
-     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
     }
-   
+
     100% {
-     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
-   }
-
-
-/* ================================================= */
-
-
+}
 
 @media screen and (min-width: 576px) {
 
@@ -209,8 +173,7 @@
 /* private_club_info */
 
 .private_club_info {
-    background: linear-gradient(var(--COLOR-BG-SECTION), var(--COLOR-BG-DARK));
-    /* background: radial-gradient(var(--COLOR-BG-SECTION), var(--COLOR-BG-DARK)); */
+    background-image: linear-gradient(180deg, #53453b, #746153, #958579, #d9cabe);
     height: 60vh;
 }
 
@@ -771,9 +734,10 @@
     /* padding: 10px; */
 }
 
-/* =============================== */
-
-/* ================================ */
+.btn__cost-width {
+    width: 150px;
+    height: 39px;
+}
 
 .cost_page__title {
     /* font-family: 'Playfair Display', serif; */

@@ -123,6 +123,11 @@
     text-transform: uppercase;
 }
 
+.btn__form-width {
+    width: 136px;
+    height: 38px;
+}
+
 @media screen and (min-width: 767px) {
     .contacts_page__head-block {
         grid-template-columns: 1fr 1fr;
