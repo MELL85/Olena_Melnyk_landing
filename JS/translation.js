@@ -295,6 +295,50 @@
 
     };
 
+    // ==============
+
+    // const langButtons = document.querySelectorAll('.lang-btn');
+
+    // langButtons.forEach(function (langButton) {
+    //     langButton.addEventListener('click', function (event) {
+    //         let lang = event.target.dataset.btn;
+    //         let currentUrl = new URL(window.location.href);
+    //         let currentLanguage = currentUrl.hash.substring(1);
+
+    //         if (currentLanguage === lang) {
+    //             return;
+    //         }
+
+    //         currentUrl.hash = lang;
+
+    //         window.location.href = currentUrl.toString();
+    //     });
+    // });
+
+    // const langButtons = document.querySelectorAll('.lang-btn');
+
+    // langButtons.forEach(function (langButton) {
+    //     langButton.addEventListener('click', function (event) {
+    //         let lang = event.target.dataset.btn;
+    //         let currentUrl = new URL(window.location.href);
+    //         let currentLanguage = currentUrl.hash.substring(1);
+
+    //         if (currentLanguage === lang) {
+    //             return;
+    //         }
+
+    //         if (lang === 'en') {
+    //             currentUrl.hash = 'en';
+    //         } else {
+    //             currentUrl.hash = '';
+    //         }
+
+    //         window.location.href = currentUrl.toString();
+    //     });
+    // });
+
+    // ==============
+
     function checkPagePathName() {
         switch (currentPathName) {
             case '/index.html':
