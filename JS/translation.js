@@ -236,6 +236,7 @@
             'ua': 'Творець 6 онлайн курсів, які пройшли понад 1000 жінок',
             'en': 'The creator of 6 online courses that have been completed by more than 1000 women',
         },
+
         'contactHeadTitle': {
             'ua': 'Звʼяжіться зі мною',
             'en': 'Contact me',
@@ -326,6 +327,24 @@
     // });
 
     // ==============
+
+    function setLanguage() {
+        let savedLang = localStorage.getItem('language');
+        if (!savedLang) {
+            let browserLang = checkBrowserLang();
+            if (browserLang) {
+                currentLang = browserLang;
+            } else {
+                currentLang = 'ua';
+            }
+            localStorage.setItem('language', currentLang);
+        } else {
+            currentLang = savedLang;
+        }
+    }
+
+    setLanguage();
+
 
     function checkPagePathName() {
         switch (currentPathName) {
