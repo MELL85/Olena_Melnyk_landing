@@ -49,16 +49,16 @@
             'en': 'ABOUTlife',
         },
         'homeTextUp': {
-            'ua': 'Рік психотерапії за ціною сукні.',
-            'en': 'A year of psychotherapy for the price of a dress.',
+            'ua': 'Терапія почуттів замість келиха вина за ціною кави.',
+            'en': 'Emotional therapy instead of a glass of wine for the price of a coffee.',
         },
         'homeText': {
             'ua': 'Тепер це можливо!',
             'en': 'Now it is possible!',
         },
         'homeTitleUp': {
-            'ua': 'З чого почати? Як це опрацювати? Що робити, якщо в мене немає грошей на психолога?',
-            'en': 'Where to start? How to process it? What to do if there is no money for a psychologist?',
+            'ua': 'З чого почати? Як зрозуміти свої почуття? Що робити якщо не можу піти до психолога?',
+            'en': "Where to start? How to understand your feelings? What should I do if I can't go to a psychologist?",
         },
         'homeTitle': {
             'ua': 'Відповідь на ці запитання - Закритий клуб із Оленою Мельник',
@@ -69,14 +69,18 @@
             'en': 'Join a private club',
         },
         'infoTitle': {
-            'ua': 'Закритий клуб" це річна програма опрацювання 12-ти основних запитів жінок, які приходять до психолога, щоб змінити своє життя.',
-            'en': '"Private Club" is a year-long program for processing 12 main requests of women who come to a psychologist to change their lives.',
+            'ua': '"Закритий клуб" це річна програма опрацювання основних запитів жінок, які приходять до психолога, щоб змінити своє життя.',
+            'en': '"Private Club" is a year-long program for processing the main requests of women who come to a psychologist to change their lives.',
         },
         'topics': {
             'ua': 'Теми:',
             'en': 'Topics:',
         },
-        'quilty': {
+        'intelligence': {
+            'ua': 'Емоційний інтелект',
+            'en': 'Emotional intelligence',
+        },
+        'guilty': {
             'ua': 'Почуття провини',
             'en': 'Feeling guilty',
         },
@@ -84,57 +88,53 @@
             'ua': 'Страхи',
             'en': 'Fears',
         },
-        'borders': {
-            'ua': 'Межі',
-            'en': 'Borders',
-        },
-        'vision': {
-            'ua': 'Образи',
-            'en': 'Vision',
-        },
         'aggression': {
             'ua': 'Агресія',
             'en': 'Aggression',
         },
-        'self': {
-            'ua': 'Самооцінка',
-            'en': 'Self-esteem',
+        'shame': {
+            'ua': 'Почуття сорому',
+            'en': 'A feeling of shame',
+        },
+        'offense': {
+            'ua': 'Образи',
+            'en': 'Offense',
         },
         'responsibility': {
             'ua': 'Відповідальність',
             'en': 'Responsibility',
         },
-        'victim': {
-            'ua': 'Стан жертви',
-            'en': 'Condition of the victim',
+        'awareness': {
+            'ua': 'Усвідомленість',
+            'en': 'Awareness',
         },
-        'feeling': {
-            'ua': 'Почуття',
-            'en': "Feeling",
+        'anxiety': {
+            'ua': 'Почуття тривоги',
+            'en': "A feeling of anxiety",
         },
-        'worthy': {
-            'ua': 'Я гідна',
-            'en': "I'm Worthy",
+        'observer': {
+            'ua': 'Як розвинути внутрішнього спостерігача',
+            'en': "How to develop an inner observer",
         },
-        'affinity': {
-            'ua': 'Близкість',
-            'en': 'Affinity',
+        'manifestation': {
+            'ua': 'Проявленість',
+            'en': 'Manifestation',
         },
-        'confidence': {
-            'ua': 'Впевненість',
-            'en': 'Confidence',
+        'subconscious': {
+            'ua': 'Робота з підсвідомим',
+            'en': 'Working with the subconscious',
         },
-        'lineage': {
-            'ua': 'Рід',
-            'en': 'Lineage',
+        'awaits': {
+            'ua': 'Це те, що вже чекає на тебе в клубі!',
+            'en': 'This is what awaits you in the club!',
         },
         'question': {
             'ua': 'СКІЛЬКИ КОШТУЄ ОДНА СЕСІЯ У ХОРОШОГО ПСИХОЛОГА?',
             'en': 'HOW MUCH DOES ONE SESSION COST WITH A GOOD PSYCHOLOGIST?',
         },
         'questionText': {
-            'ua': 'Від 2 тисяч гривень і вище за одну сесію. У нашому клубі за 10 тисяч гривень ви отримаєте доступ до 12 аудіо-лекцій з терапевтичними техніками (учасниці клубу кажуть, що за ефективністю кожна з них дорівнює сесії в психолога), а це лише 833 гривні!',
-            'en': 'From 2 thousand hryvnias and above for one session. In our club, for 10 thousand hryvnias, you will get access to 12 audio lectures with therapeutic techniques (club members say that each of them is as effective as a session with a psychologist), and this is only 833 hryvnias!',
+            'ua': 'Від 2 тисяч гривень і вище за одну сесію. У нашому клубі за 1200 гривень на місяць ви отримаєте доступ до аудіо-лекцій, завдань з терапевтичними техніками (учасниці клубу кажуть, що за ефективністю кожна з них дорівнює сесії в психолога), які змінять якість вашого життя!',
+            'en': 'From 2 thousand hryvnias and above for one session. In our club, for 1,200 hryvnias per month, you will get access to audio lectures, tasks with therapeutic techniques (club members say that each of them is as effective as a session with a psychologist), which will change the quality of your life!',
         },
         'answer': {
             'ua': 'Кому потрібен закритий клуб?',
@@ -149,28 +149,28 @@
             'en': ' - this',
         },
         'access': {
-            'ua': '12 місяців доступу до всіх матеріалів з моменту оплати',
-            'en': '12 months of access to all materials from the moment of payment',
+            'ua': 'Доступ до усіх матеріалів з моменту оплати',
+            'en': 'Access to all materials from the moment of payment',
         },
-        'participants': {
-            'ua': 'Понад 1000 учасниць',
-            'en': 'More than 1000 participants',
+        'anyTime': {
+            'ua': 'Можливість проходити завдання у будь-який час, в комфортному темпі',
+            'en': 'Ability to complete tasks at any time, at a comfortable pace',
         },
         'importantTopics': {
-            'ua': '12 найважливіших тем',
-            'en': '12 most important topics',
+            'ua': 'Тільки найважливіші теми',
+            'en': 'Only the most important topics',
         },
         'recording': {
-            'ua': '12 прямих ефірів у записі',
-            'en': '12 live broadcasts in the recording',
+            'ua': 'І бонус — чотири важливих групових зустрічі: «Мій ресурс», «ЛегкаЯ», «Сценарії стосунків», «Томограма мого життя» у запису',
+            'en': 'And a bonus — four important group meetings: "My resource", "EasyI", "Relationship scenarios", "Tomogram of my life" in the recording',
         },
         'lectures': {
-            'ua': '2 бонусні лекції "Самоцінність" і "Адаптація"',
-            'en': '12 bonus lectures "Self-esteem" and "Adaptation"',
+            'ua': 'Кожна з цих групових є окремою терапевтичою роботою з вашою енергією, зайвою вагою, комунікацією і розумінням себе та партнера в стосунках, минулого, що впливає на тут і зараз',
+            'en': 'Each of these groups is a separate therapeutic work with your energy, excess weight, communication and understanding of yourself and your partner in the relationship, the past, which affects the here and now',
         },
-        'closedInstagram': {
-            'ua': 'Закритий акаунт в інстаграмі з можливістю поставити запитання щодо уроків професійному психологу',
-            'en': 'A closed Instagram account with the opportunity to ask questions about the lessons to a professional psychologist',
+        'privateChannel': {
+            'ua': 'Можливість ставити питання в закритому каналі',
+            'en': 'Ability to ask questions in a private channel',
         },
         'textPageUp': {
             'ua': 'Спробуйте уявити, яким може бути ваше життя, якщо ви розберетеся зі страхами, почуттям провини, агресією, налагодите самооцінку, зможете відстоювати свої кордони, перестанете ображатися, візьмете нарешті відповідальність за своє життя і, забувши про роль жертви, станете талановитим автором своєї долі.',
@@ -217,8 +217,8 @@
             'en': "PSYCHOLOGIST, PRACTICE WOMEN'S TRAINER, BLOGGER",
         },
         'meHeadText': {
-            'ua': 'Спеціаліст кількох терапевтичних технік і автор проєктів із розкриття сексуальності та збільшення фінансового благополуччя.',
-            'en': 'A specialist in several therapeutic techniques and the author of projects on revealing sexuality and increasing financial well-being.',
+            'ua': 'Автор методик розвитку, експерт у сфері емоційної компетенції та психології відносин, інтегративний підхід.',
+            'en': 'Author of development methods, expert in the field of emotional competence and psychology of relationships, integrative approach.',
         },
         'meDiploma': {
             'ua': 'Диплом КНУ імені Тараса Шевченка',
@@ -229,32 +229,20 @@
             'en': 'More than 5 years of practice',
         },
         'meSessions': {
-            'ua': 'Більше 5000 проведених сесій',
-            'en': 'More than 5000 conducted sessions',
+            'ua': 'Більше 2000 проведених сесій',
+            'en': 'More than 2000 conducted sessions',
         },
         'meCreator': {
-            'ua': 'Творець 10 онлайн курсів',
-            'en': 'Creator of 10 online courses',
-        },
-        'meParticipants': {
-            'ua': 'Мої курси пройшли понад 60 000 учасниць по всьому світу',
-            'en': 'My courses have been completed by more than 60,000 participants all over the world',
-        },
-        'meBlog': {
-            'ua': 'Понад 300 000 жінок читають мій блог в Instagram',
-            'en': 'Over 300,000 women read my blog on Instagram',
-        },
-        'meAuthor': {
-            'ua': 'Автор власного каналу на',
-            'en': 'The author of his own channel on',
+            'ua': 'Творець 6 онлайн курсів, які пройшли понад 1000 жінок',
+            'en': 'The creator of 6 online courses that have been completed by more than 1000 women',
         },
         'contactHeadTitle': {
             'ua': 'Звʼяжіться зі мною',
             'en': 'Contact me',
         },
         'contactText': {
-            'ua': "Якщо у вас є будь-які запитання або запити про проблему з психічним здоров'ям, будь ласка, не соромтеся. Не соромтеся звертатися до мене, і я зв'яжуся з вами якомога швидше.",
-            'en': "If you have any questions or queries about a mental health problem, please don't hesitate. Feel free to contact me and I will get back to you as soon as possible.",
+            'ua': "Якщо у вас є будь-які запитання або запити про психологічні проблеми, будь ласка не соромтеся звертатися до мене.",
+            'en': "If you have any questions or inquiries about psychological issues, please do not hesitate to contact me.",
         },
         'contactAdrTitle': {
             'ua': 'Адреса',

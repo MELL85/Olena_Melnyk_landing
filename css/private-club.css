@@ -9,7 +9,7 @@
 }
 
 .private-club__head-block {
-    padding: 20px 4px;
+    padding: 215px 4px;
 }
 
 .private-club__head-title-up {
@@ -75,7 +75,7 @@
 
 @media screen and (min-width: 576px) {
     .private-club__head-block {
-        padding: 65px 0;
+        padding: 215px 0;
     }
 }
 
@@ -102,7 +102,7 @@
     }
 
     .private-club__head-block {
-        padding: 140px 0;
+        padding: 215px 0;
     }
 
     .pc__line {
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 1200px) {
     .private-club__head-block {
-        padding: 115px 0;
+        padding: 200px 0;
     }
 
     .private-club__head-title {

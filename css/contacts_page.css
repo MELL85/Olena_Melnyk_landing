@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
     background: var(--COLOR-BG-SECTION);
-    padding: 39px 50px;
+    padding: 25px 50px;
     border: 1px solid;
     border-radius: 7px;
     border: transparent;
@@ -154,7 +154,7 @@
     }
 
     .contacts_page__map {
-        height: 190px;
+        height: 209px;
     }
 }
 
@@ -173,7 +173,7 @@
     }
 
     .contacts_page__map {
-        height: 226px;
+        height: 224px;
     }
 }
 
@@ -223,7 +223,7 @@
     }
 
     .contacts_page__map {
-        height: 217px;
+        height: 215px;
     }
 }
 

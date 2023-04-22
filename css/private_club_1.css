@@ -61,7 +61,7 @@
 
 .private_club_home__title {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .private_club__btn {
@@ -267,6 +267,10 @@
     list-style: none;
     margin: 0 0 8px;
     font-weight: 300;
+}
+
+.private_club_topics__list-down {
+    font-weight: 400;
 }
 
 @media screen and (min-width: 576px) {
@@ -589,17 +593,38 @@
     width: 40px;
 }
 
-.explanation_page__list-block {
-    padding: 0;
-    text-align: center;
+/* ================== */
+.explanation_page__list-main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.explanation_page__list-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px;
+}
+
+.explanation_page__list-img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+/* ================== */
 
 .explanation_page__list,
 .explanation_page__list-bold {
-    padding: 0 0 20px;
     list-style: none;
     font-size: 18px;
     font-weight: 300;
+    width: auto;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
 }
 
 .explanation_page__list-bold {
@@ -627,12 +652,18 @@
     .explanation_page__line {
         width: 10%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
 
     .explanation_page__line {
         width: 8%;
+    }
+
+    .explanation_page__list-img {
+        width: 55px;
+        height: 55px;
     }
 }
 
@@ -643,16 +674,18 @@
     }
 
     .explanation_page__list-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding: 0 0 40px;
+    }
+
+    .explanation_page__list-img {
+        width: auto;
+        height: auto;
     }
 
     .explanation_page__list,
     .explanation_page__list-bold {
         font-size: 22px;
-        width: 650px;
-        padding: 0 0 40px;
+        width: auto;
     }
 
     .explanation_page__line {
