@@ -594,42 +594,55 @@
 }
 
 /* ================== */
-.explanation_page__list-main-block {
+/* .explanation_page__list-main-block {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.explanation_page__list-block {
+/* .explanation_page__list-block {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 0 20px;
-}
+} */
 
-.explanation_page__list-img {
+/* .explanation_page__list-img {
     display: flex;
     width: 50px;
     height: 50px;
-}
+} */
 
 /* ================== */
+
+.explanation_page__list-block {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 
 .explanation_page__list,
 .explanation_page__list-bold {
     list-style: none;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     width: auto;
     display: flex;
     margin: 0;
     text-align: center;
     justify-content: center;
+    padding-bottom: 20px;
+
+    background: url(../img/svg/check-mark-1.svg) no-repeat 0 -21px;
+    padding-left: 55px;
 }
 
-.explanation_page__list-bold {
+/* .explanation_page__list-bold {
     font-weight: 500;
-}
+} */
 
 @media screen and (min-width: 576px) {
 
@@ -653,6 +666,11 @@
         width: 10%;
     }
 
+    .explanation_page__list,
+    .explanation_page__list-bold {
+        width: 450px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -664,6 +682,12 @@
     .explanation_page__list-img {
         width: 55px;
         height: 55px;
+    }
+
+    .explanation_page__list,
+    .explanation_page__list-bold {
+        width: 550px;
+        padding-bottom: 40px;
     }
 }
 
@@ -685,7 +709,7 @@
     .explanation_page__list,
     .explanation_page__list-bold {
         font-size: 22px;
-        width: auto;
+        /* width: auto; */
     }
 
     .explanation_page__line {
