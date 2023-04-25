@@ -68,7 +68,6 @@
     margin-top: 20px;
 }
 
-
 .my__btn-blink {
     border: none;
     color: var(--COLOR-BG-SECTION-LIGHT);
@@ -396,6 +395,7 @@
 }
 
 /* answer_page */
+
 .answer_page {
     background-color: var(--COLOR-BG-SECTION-LIGHT);
 }
@@ -606,12 +606,37 @@
     width: auto;
     display: flex;
     margin: 0;
+    /* text-align: initial; */
     text-align: center;
     justify-content: center;
     padding-bottom: 20px;
     background: url(../img/svg/check-mark-1.svg) no-repeat 0 -21px;
     padding-left: 40px;
     background-size: 43px 70px;
+}
+
+.explanation_page__list-one {
+    background-position: 26px -21px;
+}
+
+.explanation_page__list-two {
+    background-position: 39px -21px;
+}
+
+.explanation_page__list-three {
+    background-position: 0px -21px;
+}
+
+.explanation_page__list-four {
+    background-position: 24px -21px;
+}
+
+.explanation_page__list-five {
+    background-position: 40px -21px;
+}
+
+.explanation_page__list-six {
+    background-position: 9px -21px;
 }
 
 @media screen and (min-width: 576px) {
@@ -683,6 +708,7 @@
 
 
 /* text_page */
+
 .text_page {
     background-color: var(--COLOR-BG-SECTION-LIGHT);
 }
@@ -800,11 +826,8 @@
 
     .cost_page__head-block-products {
         padding: 30px;
-        /* height: 330px; */
     }
 }
-
-/* @media screen and (min-width: 992px) {} */
 
 @media screen and (min-width: 1200px) {
     .cost_page__head-block-products {
@@ -828,6 +851,7 @@
 
 
 /* pc_about_me */
+
 .pc_about_me {
     background-color: var(--COLOR-BG-SECTION-LIGHT);
 }
@@ -918,8 +942,8 @@
     }
 }
 
-
 /* pc_btn */
+
 .pc_btn {
     background-color: var(--COLOR-BG-SECTION);
 }
