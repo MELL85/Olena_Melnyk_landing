@@ -18,4 +18,4 @@
         menu.classList.toggle('menu__down');
         iconBurger.classList.toggle("active");
     })
-    }) ();
+})();
