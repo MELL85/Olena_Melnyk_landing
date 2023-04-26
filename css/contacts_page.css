@@ -172,8 +172,10 @@
         padding-bottom: 112px;
     }
 
+
     .contacts_page__map {
         height: 224px;
+        border: 0;
     }
 }
 
