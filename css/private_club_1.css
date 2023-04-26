@@ -592,11 +592,14 @@
 
 .explanation_page__list-block {
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    align-items: center;
+}
+
+.explanation_page__img {
+    width: 20px;
+    height: 21px;
+    margin-right: 12px;
+    margin-top: -9px;
 }
 
 .explanation_page__list {
@@ -604,39 +607,9 @@
     font-size: 18px;
     font-weight: 500;
     width: auto;
-    display: flex;
     margin: 0;
-    /* text-align: initial; */
     text-align: center;
-    justify-content: center;
     padding-bottom: 20px;
-    background: url(../img/svg/check-mark-1.svg) no-repeat 0 -21px;
-    padding-left: 40px;
-    background-size: 43px 70px;
-}
-
-.explanation_page__list-one {
-    background-position: 26px -21px;
-}
-
-.explanation_page__list-two {
-    background-position: 39px -21px;
-}
-
-.explanation_page__list-three {
-    background-position: 0px -21px;
-}
-
-.explanation_page__list-four {
-    background-position: 24px -21px;
-}
-
-.explanation_page__list-five {
-    background-position: 40px -21px;
-}
-
-.explanation_page__list-six {
-    background-position: 9px -21px;
 }
 
 @media screen and (min-width: 576px) {
@@ -654,8 +627,6 @@
 
     .explanation_page__list {
         font-size: 20px;
-        padding-left: 45px;
-        background-size: 50px 70px;
     }
 
     .explanation_page__line {
@@ -668,11 +639,6 @@
 
     .explanation_page__line {
         width: 8%;
-    }
-
-    .explanation_page__list-img {
-        width: 55px;
-        height: 55px;
     }
 
     .explanation_page__list {
@@ -690,15 +656,8 @@
         padding: 0 0 40px;
     }
 
-    .explanation_page__list-img {
-        width: auto;
-        height: auto;
-    }
-
     .explanation_page__list {
         font-size: 22px;
-        padding-left: 55px;
-        background-size: 62px 73px;
     }
 
     .explanation_page__line {
