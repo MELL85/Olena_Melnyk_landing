@@ -4,10 +4,13 @@
         $('.slider').slick({
             arrows: true,
             dots: true,
-            adaptiveHeight: true,
+            adaptiveHeight: false,
             slidesToShow: 1,
             speed: 500,
             easing: 'ease-in-out',
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
             // waitForAnimate: false,
      
             responsive: [

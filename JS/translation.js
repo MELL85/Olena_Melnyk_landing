@@ -141,8 +141,8 @@
             'en': 'Who needs a Private club?',
         },
         'answerText': {
-            'ua': 'За мене дадуть відповідь дівчата, які вже пройшли програму',
-            'en': 'Girls who have already passed the program will answer for me',
+            'ua': 'За мене дадуть відповідь дівчата, які вже пройшли програми',
+            'en': 'The girls who have already completed the program will answer for me',
         },
         'aboutClubTitle': {
             'ua': ' - це',
