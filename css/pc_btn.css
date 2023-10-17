@@ -1,0 +1,7 @@
+.pc_btn {
+    background-color: var(--COLOR-BG-SECTION);
+}
+
+.pc_btn__head-block {
+    padding: 45px 20px;
+}

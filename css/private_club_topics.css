@@ -1,0 +1,91 @@
+.private_club_topics {
+    background-color: var(--COLOR-BG-SECTION-LIGHT);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.private_club_topics__head-block {
+    padding: 45px 20px;
+}
+
+.private_club_topics__head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-HEAD-TITLE);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+}
+
+.private_club_topics__line-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 0 25px;
+}
+
+.private_club_topics__black-line {
+    width: 10%;
+    color: var(--COLOR-HEAD-TITLE);
+}
+
+.private_club_topics__line-img {
+    padding: 0 5px;
+    width: 25px;
+}
+
+.private_club_topics__head-list-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.private_club_topics__list-block {
+    padding: 0;
+}
+
+.private_club_topics__list {
+    list-style: none;
+    margin: 0 0 8px;
+    font-weight: 300;
+}
+
+.private_club_topics__list-down {
+    font-weight: 400;
+}
+
+@media screen and (min-width: 576px) {
+
+    .private_club_topics__black-line {
+        width: 7%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .private_club_topics__head-title {
+        font-size: 32px;
+    }
+
+    .private_club_topics__list {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .private_club_topics__black-line {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .private_club_topics__black-line {
+        width: 3%;
+    }
+
+    .private_club_topics__list {
+        font-size: 24px;
+    }
+}

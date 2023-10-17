@@ -1,0 +1,49 @@
+.answer_page {
+    background-color: var(--COLOR-BG-SECTION-LIGHT);
+}
+
+.answer_page__head-block {
+    padding: 45px 20px 0;
+}
+
+.answer_page__head-title-block {
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.answer_page__head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-HEAD-TITLE);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.answer_page__text-block {
+    text-align: center;
+}
+
+.answer_page__text {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 767px) {
+
+    .answer_page__head-title {
+        font-size: 32px;
+    }
+
+    .answer_page__text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .answer_page__head-title {
+        font-size: 36px;
+    }
+
+    .answer_page__text {
+        font-size: 20px;
+    }
+}

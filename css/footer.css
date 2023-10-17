@@ -44,17 +44,12 @@ footer {
 }
 
 .footer__contacts-title-block {
-    margin: 0 30px 0 0;
+    margin: 0 10px 0 0;
 }
 
 .footer__contacts-block-messages {
     display: flex;
-}
-
-.footer__contacts-block-messages>a {
-    display: flex;
-    align-items: flex-start;
-    margin: 0 10px 0;
+    gap: 10px;
 }
 
 .footer__contacts-title-head-block {
@@ -64,6 +59,8 @@ footer {
 .footer__title-color {
     transition: color 0.3s ease;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--COLOR-TEXT-NAVMENU);
 }
 
 .footer__title-color:hover {
@@ -104,10 +101,8 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-}
 
-@media screen and (min-width: 1200px) {
-    .footer__contacts-title-head-block {
-        padding: 0 0 0 30px;
+    .footer__contacts-title-block {
+        margin: 0;
     }
 }

@@ -44,11 +44,7 @@
 .contacts_page__messages-block {
     margin: 15px 0 0;
     display: flex;
-}
-
-.contacts_page__telegram-block,
-.contacts_page__instagram-block {
-    padding: 0 15px 0 0;
+    gap: 10px;
 }
 
 .contacts_page__map-block {

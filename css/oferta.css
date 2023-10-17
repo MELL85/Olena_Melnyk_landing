@@ -1,0 +1,23 @@
+.oferta {
+    background-color: var(--COLOR-BG-SECTION-LIGHT);
+    margin-top: 65px;
+}
+
+.oferta__head-block {
+    padding: 45px 20px;
+}
+
+.oferta__head-block {
+    text-align: justify;
+}
+
+@media screen and (min-width: 992px) {
+    .oferta {
+        margin-top: 0;
+    }
+
+    .oferta__head-block {
+        padding: 45px 40px;
+    }
+
+}

@@ -1,0 +1,89 @@
+.pc_about_me {
+    background-color: var(--COLOR-BG-SECTION-LIGHT);
+}
+
+.pc_about_me__head-block {
+    padding: 45px 20px;
+}
+
+.pc_about_me__img-block {
+    margin: 0 0 25px;
+}
+
+.pc_about_me__img {
+    border-radius: 10px;
+}
+
+.pc_about_me__head-title-block {
+    padding: 20px 0 0;
+}
+
+.pc_about_me__head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-HEAD-TITLE);
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.pc_about_me__title {
+    font-weight: 500;
+}
+
+.pc_about_me__head-text {
+    font-weight: 300;
+}
+
+.pc_about_me__title-block,
+.pc_about_me__head-text-block {
+    margin: 0 0 25px;
+}
+
+.pc_about_me__list-block {
+    padding: 0;
+}
+
+.pc_about_me__list {
+    list-style: none;
+    font-weight: 500;
+    padding: 0 0 10px;
+}
+
+.pc_about_me__list-link {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+    .pc_about_me__head-block {
+        display: flex;
+        align-items: flex-start;
+        gap: 45px;
+    }
+
+    .pc_about_me__head-title-block {
+        padding: 0;
+    }
+
+    .pc_about_me__head-title {
+        font-size: 32px;
+    }
+
+    .pc_about_me__head-text,
+    .pc_about_me__list {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pc_about_me__head-title {
+        font-size: 34px;
+    }
+
+    .pc_about_me__title {
+        font-size: 18px;
+    }
+
+    .pc_about_me__head-text,
+    .pc_about_me__list {
+        font-size: 20px;
+    }
+}
